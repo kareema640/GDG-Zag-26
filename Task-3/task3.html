@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="task3.php">
+        <fieldset>
+            <legend>personal information</legend>
+            <label for="1">Name(Text):</label>
+            <input type="text" id="1" required>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Contact & Security</legend>
+            <label for="2">Email:</label>
+            <input type="email" id="2" required>
+        <br>
+        <br>
+            <label for="3">Password:</label>
+            <input type="password" id="3" required>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>preferences</legend>
+            <label for="4">Favorite Colour:</label>
+            <input type="color" id="4" value="#ff0000"  required>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Range & Options</legend>
+            <label for="5">Volume (Range 0-100):</label>
+            <input type="range" id="5" step="10" min="0" max="100" value="40" required>
+            <br>
+            <br>
+            <br>
+            <p>Select your favorite pet:</p>
+            <input type="radio" id="6" name="Favorite pet" value="Dog">
+            <label for="6">Dog</label>
+            <br>
+            <input type="radio" id="7" name="Favorite pet" value="Cat">
+            <label for="7">Cat</label>
+            <br>
+            <input type="radio" id="8" name="Favorite pet" value="Bird">
+            <label for="8">Bird</label>
+            <br>
+            <br>
+            <br>
+            <p>Interests (Check all that apply):</p>
+            <input type="checkbox" id="9" name="Interests" value="Coding">
+            <label for="9">Coding</label>
+            <br>
+            <input type="checkbox" id="10" name="Interests" value="Music">
+            <label for="10">Music</label>
+            <br>
+            <input type="checkbox" id="11" name="Interests" value="Travel">
+            <label for="11">Travel</label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Selection</legend>
+            <label for="12">Choose a country:</label>
+            <select name="country" id="12">
+                <optgroup label="Africa">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Jordon">Jordon</option>
+                    <option value="Sudan">Sudan</option>
+                </optgroup>
+
+                <optgroup label="Europe">
+                    <option value="Italy">Italy</option>
+                    <option value="German" selected>German</option>
+                    <option value="Paris">Paris</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <label for="13">Your comments (Textarea):</label>
+            <br>
+            <br>
+            <textarea id="13" cols="50" rows="5" placeholder="comments"></textarea>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>File Upload</legend>
+            <label for="14">Upload a File:</label>
+            <input type="file" id="14" name="file">
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Specializes Taxt Inputs</legend>
+            <label for="15">Search this site :</label>
+            <input type="search" id="15"  name="Search">
+            <br>
+            <br>
+            <label for="16">Your Website URL:</label>
+            <input type="url" id="16" name="URL"  placeholder="https://example.com" required>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Data & Time</legend>
+            <label for="17">Data:</label>
+            <input type="date" id="17" name="date" required>
+            <br>
+            <br>
+            <label for="18">Month:</label>
+            <input type="month" id="18" name="month">
+            <br>
+            <br>
+            <label for="19">Time:</label>
+            <input type="time" id="19" name="time">
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Datalist (Suggestions)</legend>
+            <p>Choose a Browser (With Suggestions):
+             <input list="datalist">
+            <datalist id="datalist">
+                <option value="google">
+                <option value="Brave">
+                <option value="Microsoft edge">
+            </datalist>
+            </fieldset>
+            <hr>
+            <input type="submit" value="submit form">
+            <input type="reset" value="clear form">
+    </form> 
+</body>
+</html>
