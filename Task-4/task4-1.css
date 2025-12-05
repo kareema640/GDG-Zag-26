@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(203, 222, 233);
+    margin:0 ;
+    padding: 0;
+    border: 0;
+    height: 100%;
+}
+
+.aaa{
+    background-color:rgb(5, 96, 142);
+    text-align: center;
+    color: aliceblue;
+    height: 100px;
+    font-family: Poppins;
+    margin: 0 ;
+    border: 0 ;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+p{
+    font-size:x-small;
+}
+.abc{
+
+    background-color:rgb(190, 218, 233) ;
+    border:  solid 1px rgb(4, 56, 152);
+    margin: 10px;
+    font-family: Poppins;
+    color: rgb(4, 56, 152);
+    overflow: auto;
+    height: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+h2{
+    border: solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+p{
+    margin-left: 10px;
+    word-spacing: 2px;
+}
+.bbb{
+    margin-top: 50px;
+    font-size: smaller;
+    font-family: Poppins;
+}
+h3{
+    color:rgb(4, 56, 152);
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+ul{
+    list-style-type: square;
+    font-size: smaller;
+    margin-left:0px;
+    padding-top: 0px;
+
+}
+.ccc{
+    margin-top: 10px;
+    border: dashed 1px rgb(4, 56, 152);
+    font-family: Poppins;
+    font-size: small;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+.mmm{
+    margin-top: 2%;
+}
+h4{
+    color: rgb(4, 56, 152);
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+img{
+        border: 2px solid rgb(4, 56, 152) ;
+        box-sizing: border-box;
+        margin: 0px;
+        padding-top: 5px;
+        
+}
+
+.html{
+    box-shadow:  rgb(5, 96, 142);
+    border: 2px solid rgb(4, 56, 152) ;
+    text-align: center;
+    width: 200px;
+    font-size: x-small;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 5px;
+    p{
+    margin-left: 10px;
+    text-align:left;
+    margin-top: 0px;
+    }
+    font-size: xx-small;
+}
+.iimm{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(35, 184, 184);
+    border: 0px;
+    border-radius: 3px;
+    font-size: xx-small;
+    box-sizing: border-box;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color:rgb(5, 96, 142);
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+    font-family: Poppins;
+    margin: 0 ;
+    border: 0 ;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
