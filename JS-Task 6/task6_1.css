@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#textPreview {
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;                       
+    font-size: 16px;                     
+    line-height: 1.6;
+}
